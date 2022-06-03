@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<script type="text/javascript">
+			function myButton() {
+				CSwitch.classList.toggle("myStyle2");
+				 document.getElementById("CSwitch").innerHTML = "I love you";
+				//var it = document.getElementById("sec").innerHTML;
+			}
+		</script>
+
+		<style type="text/css">
+			.myStyle1{
+				background-color: blue;
+			}
+
+			.myStyle2{
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="myStyle1" id="CSwitch">
+			HELLO Freah 
+		</div>
+		<button onclick="myButton()"> CLICK ME </button>
+	</body>
+</html>
